@@ -33,7 +33,7 @@ class CalorieTracker{
         totalCaloriesEl.innerHTML = this._totalCalories;
     }
 
-    _displayCaloriesLimit() {
+    _displayCaloriesLimit()  {
         const calorieLimitEl = document.getElementById('calories-limit');
         calorieLimitEl.innerHTML = this._calorieLimit;
     }
